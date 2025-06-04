@@ -1,0 +1,48 @@
+ .parent p{
+     font-family:cursive;
+     font-size:50px;
+    letter-spacing:5p;
+    text-transform:capitalize;
+    text-decoration:line-through;
+        }
+ p:hover{
+    color:aqua;
+     background-color:rgb(255, 0, 255)
+        }
+        .border{
+            border:2px solid purple;
+            border-radius:30px;
+            padding-left:10px;
+            padding-top:20px;
+        }
+        .margin{
+            border:3px solid blue;
+            margin-top:100px;
+            padding: 10px 50px 5px 30px;
+        }
+        .position{
+            border:2px solid red;
+            margin-top:50px;
+            padding: 10px 50px 5px 30px;
+        }
+        .relative{
+            position:relative;
+            top:40px;
+            left:100px;
+            height:100px
+
+        }
+        .page{
+            height:100vh;
+            padding: 10px 50px 5px 30px;
+        }
+        .fixed{
+            position:fixed;
+            left:500px
+        }
+        .sticky{
+            position:sticky;
+            top:10px;
+            left:120px
+        }
+   
