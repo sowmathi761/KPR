@@ -45,4 +45,47 @@
             top:10px;
             left:120px
         }
-   
+        .inline{
+            display:inline;
+        }
+        .display{
+            display:inline;
+        }
+        
+
+        
+        .flex-container{
+            display:flex;
+            flex-direction: row;
+            background-color:burlywood;
+            border:2px solid black;
+            padding:15px;
+            justify-content: space-around;
+            height:100vh;
+        }
+        .flex-container div{
+            background-color: aquamarine;
+            border:2px solid black;
+            height:100px;
+            width:100px;
+        }
+        .two{
+         flex-shrink:0;
+        
+     }
+     ul,li{
+        display:flex;
+        justify-content:space-evenly;
+     }
+     .grid-container{
+        display:grid;
+        grid-template-columns: 50px 50px 50px 50px 50px;
+        grid-template-rows: 50px 50px  ;
+     }
+     .grid-container div{
+        border : 2px solid cyan;
+     }
+     .one{
+        grid-row-start: 1;
+        grid-row-end: 4;
+     }

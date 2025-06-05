@@ -1,0 +1,12 @@
+.header{
+    background-color: black;
+    color:white;
+    padding-left: 30px;
+}
+li,h3,ul{
+    display:inline;
+
+}
+ul{
+    margin-left: 45%;
+}

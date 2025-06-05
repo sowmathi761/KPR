@@ -1,0 +1,28 @@
+.header{
+    background-color: black;
+    color:white;
+    padding:30px;
+}
+li,h1,ul{
+    display:inline;
+}
+ul{
+    color:grey;
+    margin-left: 950px;
+    
+}
+li:hover{
+    color:white;
+}
+
+.website{
+    padding-bottom:1200 px;
+    background-color: black;
+    color:white;
+    display:flex;
+}
+
+.column{
+    flex-direction: column;;
+    display:flex;
+}
