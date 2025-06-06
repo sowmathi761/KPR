@@ -1,0 +1,7 @@
+@media(max-width:600px){
+.header{
+    display:flex;
+    flex-direction:column;
+    color:aqua;
+    background-color: black;
+}}

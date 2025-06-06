@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock.html</title>
+</head>
+<body>
+    <h1>Rock Paper Scissor</h1>
+    <button onclick="game('rock')">🪨Rock</botton>
+        <button onclick="game('paper')">📜Paper</button>
+        <button onclick="game('scissor')">✂️scissor</button>
+        <h1 class="result"
+        id="result"></h1>
+        <script> function game(userChoice){
+            const choices=['rock','paper','scissor'];
+            const computerChoice=choices[Math.floor(Math.random()*3)];
+            let result=''
+            if(userChoice===computerChoice){
+               result=` It's draw🙌`
+            }
+            else if((userChoice==='rock' && computerChoice==='paper')||(userChoice==='paper' && computerChoice==='scissor')||(userChoice==='scissor'&&computerChoice=='rock'))
+            {
+                result='you lose'
+            }
+            else{
+        result='you won'
+        }
+        document.getElementById('result').innerText=result
+    }
+</script>
+        
+    
+</body>
+</html>
